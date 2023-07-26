@@ -198,7 +198,14 @@ function App() {
                   id="equal"
                   value="="
                   onClick={() => {
-                    setEventInputs(eval(inputDatas));
+                    setEventInputs((obj) => {
+                      // const evaluatedObj = {};
+                      // for (const key in obj){
+                      //   if(Object.prototype.hasOwnProperty.call(obj,key)){
+
+                      //   }
+                      // }
+                    });
                   }}
                   className="green"
                 >
